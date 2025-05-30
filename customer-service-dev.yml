@@ -6,8 +6,9 @@ message: Hello from Dev!
 spring:
   datasource:
      url: jdbc:mysql://localhost:3306/customer_master
+     driver-class-name: com.mysql.cj.jdbc.Driver
      username: root
-     password:
+     password: 12345@shubham
   jpa:
     hibernate:
       ddl-auto: update
